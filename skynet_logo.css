@@ -1,5 +1,5 @@
 :root {
-    --logo: url("https://cdn.jsdelivr.net/gh/n00bcodr/assets/skynet.png");
+    --logo: url("https://cdn.jsdelivr.net/gh/n00bcodr/assets/skynet.png") !important;
 }
 
 .pageTitleWithDefaultLogo {
@@ -11,7 +11,7 @@
 }
 
 #loginPage .visualLoginForm:not(.hide) h1::before {
-  background-size: 50% !important;
+  background-size: 30% !important;
 }
 
 #loginPage .manualLoginForm:not(.hide) h1.sectionTitle::before {
