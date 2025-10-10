@@ -1,0 +1,19 @@
+:root {
+    --logo: url("https://cdn.jsdelivr.net/gh/n00bcodr/assets/skynet.jpg");
+}
+
+.pageTitleWithDefaultLogo {
+    background-size: 100% !important;
+}
+
+.layout-mobile .pageTitleWithDefaultLogo {
+    width: 130px !important;
+}
+
+#loginPage .visualLoginForm:not(.hide) h1::before {
+  background-size: 50% !important;
+}
+
+#loginPage .manualLoginForm:not(.hide) h1.sectionTitle::before {
+  background-size: 100% !important;
+}
