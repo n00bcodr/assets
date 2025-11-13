@@ -1,0 +1,56 @@
+/* Hide Original tags */
+.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-netflix"] span,
+.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-amazonprimevideo"] span,
+.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-aha"] span,
+.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-sonyliv"] span,
+.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-zee5"] span,
+.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-jiohotstar"] span,
+.itemExternalLinks a.arr-tag-link[data-tag-name="1 - pavan thanuj upadrasta"] span {
+  display: none !important;
+}
+
+.itemExternalLinks a.arr-tag-link::after {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+  border-radius: 6px;
+  vertical-align: middle;
+}
+
+/* Icons For Streaming Services*/
+
+.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-netflix"]::after {
+  background-image: url("https://media.themoviedb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg");
+}
+
+.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-amazonprimevideo"]::after {
+  background-image: url("https://media.themoviedb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg");
+}
+
+.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-aha"]::after {
+  background-image: url("https://media.themoviedb.org/t/p/original/8WerMI8XcZXqPpkHTZNtzMzousF.jpg");
+}
+
+.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-sonyliv"]::after {
+  background-image: url("https://media.themoviedb.org/t/p/original/3973zlBbBXdXxaWqRWzGG2GYxbT.jpg");
+}
+
+.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-zee5"]::after {
+  background-image: url("https://media.themoviedb.org/t/p/original/gP67NRy1ShUJilrzMsbOmEmdmcv.jpg");
+}
+
+.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-jiohotstar"]::after {
+  background-image: url("https://pnghdpro.com/wp-content/themes/pnghdpro/download/social-media-and-brands/jiohotstar-logo.png");
+}
+
+
+/* Profile Pictures for Users */
+
+.itemExternalLinks a.arr-tag-link[data-tag-name="1 - pavan thanuj upadrasta"]::after {
+  background-image: url("/Users/9222e1b1b22b40c3a0bc3ff54202ef34/Images/Primary");
+  border-radius: 50%; 
+}
