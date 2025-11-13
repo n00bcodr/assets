@@ -5,6 +5,7 @@
 .itemExternalLinks a.arr-tag-link[data-tag-name="(in)-sonyliv"] span,
 .itemExternalLinks a.arr-tag-link[data-tag-name="(in)-zee5"] span,
 .itemExternalLinks a.arr-tag-link[data-tag-name="(in)-jiohotstar"] span,
+.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-sunnxt"] span,
 .itemExternalLinks a.arr-tag-link[data-tag-name="1 - pavan thanuj upadrasta"] span {
   display: none !important;
 }
@@ -45,6 +46,10 @@
 
 .itemExternalLinks a.arr-tag-link[data-tag-name="(in)-jiohotstar"]::after {
   background-image: url("https://pnghdpro.com/wp-content/themes/pnghdpro/download/social-media-and-brands/jiohotstar-logo.png");
+}
+
+.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-sunnxt"]::after {
+  background-image: url("https://media.themoviedb.org/t/p/original/6KEQzITx2RrCAQt5Nw9WrL1OI8z.jpg");
 }
 
 
