@@ -1,15 +1,4 @@
-/* Hide Original tags */
-.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-netflix"] span,
-.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-amazonprimevideo"] span,
-.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-aha"] span,
-.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-sonyliv"] span,
-.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-zee5"] span,
-.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-jiohotstar"] span,
-.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-sunnxt"] span,
-.itemExternalLinks a.arr-tag-link[data-tag-name="1 - pavan thanuj upadrasta"] span {
-  display: none !important;
-}
-
+/* Base style for all arr-tag-link icons */
 .itemExternalLinks a.arr-tag-link::after {
   content: "";
   display: inline-block;
@@ -22,40 +11,139 @@
   vertical-align: middle;
 }
 
-/* Icons For Streaming Services*/
 
-.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-netflix"]::after {
+/* Netflix */
+.itemExternalLinks a.arr-tag-link[data-tag-name*="netflix" i] span {
+  display: none !important;
+}
+.itemExternalLinks a.arr-tag-link[data-tag-name*="netflix" i]::after {
   background-image: url("https://media.themoviedb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg");
 }
 
-.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-amazonprimevideo"]::after {
+/* Amazon Prime Video */
+.itemExternalLinks a.arr-tag-link[data-tag-name*="amazon" i] span,
+.itemExternalLinks a.arr-tag-link[data-tag-name*="prime" i] span {
+  display: none !important;
+}
+.itemExternalLinks a.arr-tag-link[data-tag-name*="amazon" i]::after,
+.itemExternalLinks a.arr-tag-link[data-tag-name*="prime" i]::after {
   background-image: url("https://media.themoviedb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg");
 }
 
-.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-aha"]::after {
+/* Disney+ */
+.itemExternalLinks a.arr-tag-link[data-tag-name*="disney" i] span {
+  display: none !important;
+}
+.itemExternalLinks a.arr-tag-link[data-tag-name*="disney" i]::after {
+  background-image: url("https://media.themoviedb.org/t/p/original/dgPueyEdOwpQ10fjuhL2WYFQwQs.jpg");
+}
+
+/* Apple TV+ */
+.itemExternalLinks a.arr-tag-link[data-tag-name*="apple" i] span {
+  display: none !important;
+}
+.itemExternalLinks a.arr-tag-link[data-tag-name*="apple" i]::after {
+  background-image: url("https://media.themoviedb.org/t/p/original/2E03IAZsX4ZaUqM7tXlctEPMGWS.jpg");
+}
+
+/* HBO Max */
+.itemExternalLinks a.arr-tag-link[data-tag-name*="hbo" i] span {
+  display: none !important;
+}
+.itemExternalLinks a.arr-tag-link[data-tag-name*="hbo" i]::after {
+  background-image: url("https://media.themoviedb.org/t/p/original/Ajqyt5aNxNGjmF9uOfxArGrdf3X.jpg");
+}
+
+/* Hulu */
+.itemExternalLinks a.arr-tag-link[data-tag-name*="hulu" i] span {
+  display: none !important;
+}
+.itemExternalLinks a.arr-tag-link[data-tag-name*="hulu" i]::after {
+  background-image: url("https://media.themoviedb.org/t/p/original/pqUTCleNUiTLAVlelGxUgWn1ELh.jpg");
+}
+
+/* Paramount+ */
+.itemExternalLinks a.arr-tag-link[data-tag-name*="paramount" i] span {
+  display: none !important;
+}
+.itemExternalLinks a.arr-tag-link[data-tag-name*="paramount" i]::after {
+  background-image: url("https://media.themoviedb.org/t/p/original/h5DcR0J2EESLitnhR8xLG1QymTE.jpg");
+}
+
+/* Peacock */
+.itemExternalLinks a.arr-tag-link[data-tag-name*="peacock" i] span {
+  display: none !important;
+}
+.itemExternalLinks a.arr-tag-link[data-tag-name*="peacock" i]::after {
+  background-image: url("https://media.themoviedb.org/t/p/original/xTVM8uXT9QocigQ01xQ1wYiTbO5.jpg");
+}
+
+/* YouTube */
+.itemExternalLinks a.arr-tag-link[data-tag-name*="youtube" i] span {
+  display: none !important;
+}
+.itemExternalLinks a.arr-tag-link[data-tag-name*="youtube" i]::after {
+  background-image: url("https://media.themoviedb.org/t/p/original/xGWC3bFV2YjCmk8E7Sf3zp1iXQm.jpg");
+}
+
+/* Crunchyroll */
+.itemExternalLinks a.arr-tag-link[data-tag-name*="crunchyroll" i] span {
+  display: none !important;
+}
+.itemExternalLinks a.arr-tag-link[data-tag-name*="crunchyroll" i]::after {
+  background-image: url("https://media.themoviedb.org/t/p/original/vDCcbthdALf7vlHtUd2K7lWMkBH.jpg");
+}
+
+/* Aha */
+.itemExternalLinks a.arr-tag-link[data-tag-name*="aha" i] span {
+  display: none !important;
+}
+.itemExternalLinks a.arr-tag-link[data-tag-name*="aha" i]::after {
   background-image: url("https://media.themoviedb.org/t/p/original/8WerMI8XcZXqPpkHTZNtzMzousF.jpg");
 }
 
-.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-sonyliv"]::after {
+/* Sony Liv */
+.itemExternalLinks a.arr-tag-link[data-tag-name*="sonyliv" i] span {
+  display: none !important;
+}
+.itemExternalLinks a.arr-tag-link[data-tag-name*="sonyliv" i]::after {
   background-image: url("https://media.themoviedb.org/t/p/original/3973zlBbBXdXxaWqRWzGG2GYxbT.jpg");
 }
 
-.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-zee5"]::after {
+/* Zee5 */
+.itemExternalLinks a.arr-tag-link[data-tag-name*="zee5" i] span {
+  display: none !important;
+}
+.itemExternalLinks a.arr-tag-link[data-tag-name*="zee5" i]::after {
   background-image: url("https://media.themoviedb.org/t/p/original/gP67NRy1ShUJilrzMsbOmEmdmcv.jpg");
 }
 
-.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-jiohotstar"]::after {
+/* Hotstar/JioHotstar */
+.itemExternalLinks a.arr-tag-link[data-tag-name*="hotstar" i] span {
+  display: none !important;
+}
+.itemExternalLinks a.arr-tag-link[data-tag-name*="hotstar" i]::after {
   background-image: url("https://pnghdpro.com/wp-content/themes/pnghdpro/download/social-media-and-brands/jiohotstar-logo.png");
 }
 
-.itemExternalLinks a.arr-tag-link[data-tag-name="(in)-sunnxt"]::after {
+/* Sun NXT */
+.itemExternalLinks a.arr-tag-link[data-tag-name*="sunnxt" i] span {
+  display: none !important;
+}
+.itemExternalLinks a.arr-tag-link[data-tag-name*="sunnxt" i]::after {
   background-image: url("https://media.themoviedb.org/t/p/original/6KEQzITx2RrCAQt5Nw9WrL1OI8z.jpg");
 }
 
 
+
 /* Profile Pictures for Users */
+/* 
+.itemExternalLinks a.arr-tag-link[data-tag-name="1 - pavan thanuj upadrasta"] span {
+  display: none !important;
+}
+
 
 .itemExternalLinks a.arr-tag-link[data-tag-name="1 - pavan thanuj upadrasta"]::after {
   background-image: url("/Users/9222e1b1b22b40c3a0bc3ff54202ef34/Images/Primary");
   border-radius: 50%; 
-}
+} */
